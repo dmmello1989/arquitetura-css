@@ -1,0 +1,18 @@
+.recipes {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rem 0 0 5rem;
+  background-color: #e5e5e5;
+}
+
+@media screen and (max-width: 767px) {
+  .recipes {
+    padding: 5rem 0 0 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .recipes {
+    padding: 5rem 0 0 2.5rem;
+  }
+}
